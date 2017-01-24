@@ -1,9 +1,11 @@
 buildscript {
     repositories {
         jcenter()
+        mavenCentral()
     }
     dependencies {
         classpath 'com.netflix.nebula:gradle-extra-configurations-plugin:3.0.3'
+        classpath 'org.springframework.boot:spring-boot-gradle-plugin:1.4.3.RELEASE'
     }
 }
 
@@ -20,6 +22,7 @@ ext {
 allprojects {
     repositories {
         jcenter()
+        mavenCentral()
     }
 
     apply plugin: 'net.saliman.cobertura'
@@ -31,8 +34,8 @@ subprojects {
     apply plugin: 'nebula.provided-base'
 	apply plugin: 'nebula.compile-api'
 	
-    sourceCompatibility = 1.6
-    targetCompatibility = 1.6
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
 
 
 
