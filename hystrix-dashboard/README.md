@@ -24,3 +24,7 @@ Once running, open <a href="http://localhost:7979/hystrix-dashboard">http://loca
 Example screenshot from iPad while monitoring Netflix API:
 
 <center><img src="https://github.com/Netflix/Hystrix/wiki/images/hystrix-dashboard-netflix-api-example-iPad.png"></center>
+
+
+#Find executable jar at :
+hystrix-dashboard/build/libs
